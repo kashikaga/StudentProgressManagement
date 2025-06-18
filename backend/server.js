@@ -3,7 +3,7 @@ const dotenv = require('dotenv');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const studentRoutes = require('./routes/studentRoutes');
-const codeforcesRoutes = require('./routes/codeforcesRoutes');
+const codeforcesRoutes = require('./routes/codeForcesRoutes');
 const runDailySync = require('./cron/syncJob');
 
 dotenv.config();
